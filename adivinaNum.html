@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <title>Carrera de coches</title> 
+      <!--añadir la libreria de jquery, el archivo de javaScript y la hoja de estilo-->
+      <script src="./jquery-3.6.1.js"></script>
+      <script src="./miScript.js"></script>
+      <link rel="stylesheet" type="text/css" href="advNum.css">
+</head>
+<body>
+   <div id="cuerpo">
+      <h3>Ádivina el número entre 1 y 100!</h3>
+      <div id="apodoGamer">
+      <p>Cual es tu apodo para el juego?</p>
+      <input type="text" name="apodoJ" id="apodo">
+   </div>
+      <div id="fotoAdivina">
+         <img id="imgTitle" src="./img/adivina.jpg">
+         <img id="noAcertado" src="./img/noAcertado.png">
+         <img id="ganar" src="./img/medalla.png">
+         <div id="msgPC"><p></p></div>
+      </div>
+      <div id="jugador">
+         <input type="text" name="numJug" id="numJ">
+         <input type="submit" name="adivina" id="guess" value="Comprueba">
+      </div>
+      <button id="inicio" type="button">INICIO</button>
+   </div>
+   </body>
+</html>
